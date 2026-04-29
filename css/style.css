@@ -1,17 +1,39 @@
 body {
   font-family: Arial, sans-serif;
   background: #f8f9fa;
+  color: #212529;
 }
 
+/* HERO */
 .hero {
-  background: white;
+  background: linear-gradient(135deg, #ffffff, #f1f3f5);
+  padding: 60px 20px;
+  text-align: center;
 }
 
+/* HEADINGS */
+h1, h3 {
+  font-weight: 700;
+}
+
+/* CARDS */
 .card {
   border: none;
   border-radius: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-h1, h3 {
-  font-weight: bold;
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* BUTTON FEEL IMPROVEMENT */
+.btn-outline-primary {
+  border-radius: 10px;
+}
+
+/* SECTIONS SPACING HELP */
+section {
+  padding: 40px 0;
 }
