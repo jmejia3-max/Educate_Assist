@@ -1,4 +1,4 @@
-const ticketmasterKey = "";
+const ticketmasterKey = "uAertibB1PeOiAiooif6lZbDxCq1Q9RS";
 
 async function getEvents() {
   const url = `https://app.ticketmaster.com/discovery/v2/events.json?city=Chicago&apikey=${ticketmasterKey}`;
